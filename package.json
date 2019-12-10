@@ -5,6 +5,10 @@
   "repository": "https://github.com/marcosbuganeme/api-cobranca",
   "author": "Marcos Olavo Silva Buganeme <marcos.after@gmail.com.br>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.x",
+    "yarn": ">=1.x"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports",
