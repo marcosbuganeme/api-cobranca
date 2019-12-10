@@ -1,0 +1,24 @@
+{
+  "name": "api-cobranca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcosbuganeme/api-cobranca",
+  "author": "Marcos Olavo Silva Buganeme <marcos.buganeme@anbetec.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "sucrase": "^3.10.1",
+    "typescript": "^3.7.3"
+  }
+}
