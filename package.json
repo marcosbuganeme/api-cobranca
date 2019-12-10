@@ -1,9 +1,9 @@
 {
   "name": "api-cobranca",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.ts",
   "repository": "https://github.com/marcosbuganeme/api-cobranca",
-  "author": "Marcos Olavo Silva Buganeme <marcos.buganeme@anbetec.com.br>",
+  "author": "Marcos Olavo Silva Buganeme <marcos.after@gmail.com.br>",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
